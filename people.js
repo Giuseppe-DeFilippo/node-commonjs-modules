@@ -3,6 +3,6 @@ const names = require("./names.js");
 const hobby = require("./hobbies.js");
 
 function people() {
-    return { names: names, hobby: hobby }
+    return { names: names("caseimiro", "grumaioli"), hobby: hobby("giocare", "dormire", "lol") }
 };
 module.exports = people;
